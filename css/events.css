@@ -1,0 +1,1446 @@
+/*Events style*/
+
+.events-bg {
+    width: 100%;
+    height: 650px;
+    background-color: #F5F5F5;
+}
+.word {
+    font-size: 32px;
+    text-align: center;
+    padding-top: 50px;
+    color: rgba(0, 0, 0, 0.7);
+    font-family: sans-serif;
+}
+.line {
+    width: 78px; 
+    height: 6px;
+    background-color: #035B81; 
+    border-style: solid;
+    border-color: #035B81;
+    border-width: thin;
+    border-radius: 5px;
+    margin-top: -15px;
+}
+.events {	
+	display: table;
+	width: 98%;
+    border-spacing: 40px;
+    
+}
+.events-row {
+	display: table-row;
+}
+.events-cell {
+	display:table-cell;
+    background-color: #ffffff;
+	text-align: left;
+	height: 420px;
+	box-shadow: 0 1px 1px darkgray;
+    border-radius: 8px;
+}
+.event-photo {
+    background-image: url(../imgs/header-bg.jpeg);
+    background-position: center;
+    background-size: 100%;
+    width: 100%;
+    height: 50%;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+.event-date {
+    background-color: #FFD500;
+    width: 60px;
+    height: 80px;
+    border-radius: 4px;
+    margin-top: -60px;
+    margin-left: 290px;
+}
+.event-day {
+    background-color: #E8C200;
+    width: 100%;
+    height: 50%;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+}
+.day {
+    font-size: 20px;
+    font-family:sans-serif;
+    color: #ffffff;
+    text-align: center;
+    padding-top: 10px;
+}
+.date-div {
+    width: 80%;
+    height: 1px;
+    background-color: #ffffff;
+    border-style: solid;
+    border-color: #ffffff;
+    border-width: thin;
+    border-radius: 2px;
+    text-align: center;
+    margin-top: -14px;
+}
+.month {
+    font-size: 17px;
+    font-family: sans-serif;
+    color: #ffffff;
+    text-align: center;
+    margin-top: 8px;
+ }
+.event-title {
+    font-size: 22px;
+    padding-left: 44px;
+    margin-top: -10px;
+    font-family: sans-serif;
+}
+.clock-loc {
+    width: 19px;
+    height: 19px;
+    margin-left: 44px;
+}
+.event-time-loc {
+    font-size: 12px;
+    font-family: sans-serif;
+    color: rgba(0, 0, 0, 0.5);
+    padding-left: 78px;
+    margin-top: -19px;
+}
+.event-button {
+    width: 150px;
+    height: 30px;
+    margin-top: 18px;
+    background-color: #ffffff;
+    border-style: solid;
+    border-radius: 30px;
+    border-color: #FFD500;
+    border-width: thin;
+    font-family: sans-serif;
+    color: #FFD500;
+    outline: none;
+    font-size: 12px;
+}
+
+/*Media*/
+
+@media (min-width: 0px) and (max-width: 281px)
+{
+    .events-bg {
+        height: 750px;
+    }
+    .word {
+        font-size: 10px;
+        padding-top: 20px;
+    }
+    .line {
+        width: 20px; 
+        height: 2px;
+        border-radius: .5px;
+        margin-top: -7px;
+    }
+    .events {	
+        display: unset;
+    }
+    .events-row {
+        display: unset;
+    }
+    .events-cell {
+        display: table;
+        text-align: left;
+        width: 70%;
+        height: 210px;
+        border-spacing: 0px;
+        margin-top: 20px;
+        border-radius: 4px;
+    }
+    .event-photo {
+        border-top-left-radius: 4px;
+        border-top-right-radius: 4px;
+    }
+    .event-date {
+        width: 30px;
+        height: 38px;
+        border-radius: 2px;
+        margin-top: -29px;
+        margin-left: 100px;
+    }
+    .event-day {
+        width: 100%;
+        height: 50%;
+        border-top-left-radius: 2px;
+        border-top-right-radius: 2px;
+    }
+    .day {
+        font-size: 10px;
+        text-align: center;
+        padding-top: 5px;
+    }
+    .date-div {
+        width: 80%;
+        height: 0.5px;
+        border-radius: 0.5px;
+        text-align: center;
+        margin-top: -8.5px;
+    }
+    .month {
+        font-size: 8.2px;
+        text-align: center;
+        margin-top: 4px;
+     }
+    .event-title {
+        font-size: 9px;
+        padding-left: 20px;
+        margin-top: -5px;
+    }
+    .clock-loc {
+        width: 8px;
+        height: 8px;
+        margin-left: 20px;
+    }
+    .event-time-loc {
+        font-size: 5px;
+        padding-left: 36px;
+        margin-top: -10px;
+    }
+    .event-button {
+        width: 50px;
+        height: 15px;
+        margin-top: 8px;
+        border-radius: 6px;
+        font-size: 6px;
+    }
+}
+
+@media (min-width: 281px) and (max-width: 360px)
+{
+    .events-bg {
+        height: 860px;
+    }
+    .word {
+        font-size: 14.5px;
+        padding-top: 22px;
+    }
+    .line {
+        width: 30px; 
+        height: 2px;
+        border-radius: 5px;
+        margin-top: -7px;
+    }
+    .events {	
+        display: unset;
+    }
+    .events-row {
+        display: unset;
+    }
+    .events-cell {
+        display: table;
+        text-align: left;
+        width: 65%;
+        height: 240px;
+        border-spacing: 0px;
+        margin-top: 20px;
+        border-radius: 4px;
+    }
+    .event-photo {
+        border-top-left-radius: 4px;
+        border-top-right-radius: 4px;
+    }
+    .event-date {
+        width: 32px;
+        height: 45px;
+        border-radius: 2px;
+        margin-top: -34px;
+        margin-left: 140px;
+    }
+    .event-day {
+        width: 100%;
+        height: 50%;
+        border-top-left-radius: 2px;
+        border-top-right-radius: 2px;
+    }
+    .day {
+        font-size: 12px;
+        text-align: center;
+        padding-top: 5px;
+    }
+    .date-div {
+        width: 80%;
+        height: 0.5px;
+        border-radius: 0.5px;
+        text-align: center;
+        margin-top: -9px;
+    }
+    .month {
+        font-size: 9px;
+        text-align: center;
+        margin-top: 5px;
+     }
+    .event-title {
+        font-size: 12px;
+        padding-left: 30px;
+        margin-top: -5px;
+    }
+    .clock-loc {
+        width: 9px;
+        height: 9px;
+        margin-left: 30px;
+    }
+    .event-time-loc {
+        font-size: 6px;
+        padding-left: 46px;
+        margin-top: -11px;
+    }
+    .event-button {
+        width: 70px;
+        height: 17px;
+        margin-top: 10px;
+        border-radius: 6px;
+        font-size: 7px;
+    }
+}
+
+@media (min-width: 360px) and (max-width: 418px)
+{
+    .events-bg {
+        height: 1000px;
+    }
+    .word {
+        font-size: 17px;
+        padding-top: 22px;
+    }
+    .line {
+        width: 35px; 
+        height: 2.5px;
+        border-radius: 6px;
+        margin-top: -8px;
+    }
+    .events {	
+        display: unset;
+    }
+    .events-row {
+        display: unset;
+    }
+    .events-cell {
+        display: table;
+        text-align: left;
+        width: 65%;
+        height: 280px;
+        border-spacing: 0px;
+        margin-top: 25px;
+        border-radius: 4.5px;
+    }
+    .event-photo {
+        border-top-left-radius: 4.5px;
+        border-top-right-radius: 4.5px;
+    }
+    .event-date {
+        width: 40px;
+        height: 55px;
+        border-radius: 2.5px;
+        margin-top: -42px;
+        margin-left: 180px;
+    }
+    .event-day {
+        width: 100%;
+        height: 50%;
+        border-top-left-radius: 2.5px;
+        border-top-right-radius: 2.5px;
+    }
+    .day {
+        font-size: 15px;
+        text-align: center;
+        padding-top: 5px;
+    }
+    .date-div {
+        width: 80%;
+        height: 0.5px;
+        border-radius: 0.5px;
+        text-align: center;
+        margin-top: -10.5px;
+    }
+    .month {
+        font-size: 11px;
+        text-align: center;
+        margin-top: 5px;
+     }
+    .event-title {
+        font-size: 14px;
+        padding-left: 35px;
+        margin-top: -5px;
+    }
+    .clock-loc {
+        width: 10px;
+        height: 10px;
+        margin-left: 35px;
+    }
+    .event-time-loc {
+        font-size: 7px;
+        padding-left: 50px;
+        margin-top: -12px;
+    }
+    .event-button {
+        width: 80px;
+        height: 18px;
+        margin-top: 12px;
+        border-radius: 6px;
+        font-size: 8px;
+    }
+}
+
+@media (min-width: 418px) and (max-width: 480px)
+{
+    .events-bg {
+        height: 1080px;
+    }
+    .word {
+        font-size: 17.5px;
+        padding-top: 22px;
+    }
+    .line {
+        width: 35px; 
+        height: 2.5px;
+        border-radius: 6px;
+        margin-top: -9px;
+    }
+    .events {	
+        display: unset;
+    }
+    .events-row {
+        display: unset;
+    }
+    .events-cell {
+        display: table;
+        text-align: left;
+        width: 65%;
+        height: 300px;
+        border-spacing: 0px;
+        margin-top: 25px;
+        border-radius: 4.5px;
+    }
+    .event-photo {
+        border-top-left-radius: 4.5px;
+        border-top-right-radius: 4.5px;
+    }
+    .event-date {
+        width: 43px;
+        height: 60px;
+        border-radius: 2.5px;
+        margin-top: -45px;
+        margin-left: 200px;
+    }
+    .event-day {
+        width: 100%;
+        height: 50%;
+        border-top-left-radius: 2.5px;
+        border-top-right-radius: 2.5px;
+    }
+    .day {
+        font-size: 16px;
+        text-align: center;
+        padding-top: 5px;
+    }
+    .date-div {
+        width: 80%;
+        height: 0.5px;
+        border-radius: 0.5px;
+        text-align: center;
+        margin-top: -9.5px;
+    }
+    .month {
+        font-size: 12px;
+        text-align: center;
+        margin-top: 5px;
+     }
+    .event-title {
+        font-size: 16px;
+        padding-left: 35px;
+        margin-top: -8px;
+    }
+    .clock-loc {
+        width: 11px;
+        height: 11px;
+        margin-left: 35px;
+    }
+    .event-time-loc {
+        font-size: 8px;
+        padding-left: 52px;
+        margin-top: -13px;
+    }
+    .event-button {
+        width: 80px;
+        height: 18px;
+        margin-top: 14px;
+        border-radius: 6px;
+        font-size: 9px;
+    }
+}
+
+@media (min-width: 480px) and (max-width: 550px)
+{
+    .events-bg {
+        height: 1160px;
+    }
+    .word {
+        font-size: 19px;
+        padding-top: 22px;
+    }
+    .line {
+        width: 35px; 
+        height: 2.5px;
+        border-radius: 6px;
+        margin-top: -9px;
+    }
+    .events {	
+        display: unset;
+    }
+    .events-row {
+        display: unset;
+    }
+    .events-cell {
+        display: table;
+        text-align: left;
+        width: 65%;
+        height: 330px;
+        border-spacing: 0px;
+        margin-top: 25px;
+        border-radius: 5px;
+    }
+    .event-photo {
+        border-top-left-radius: 5px;
+        border-top-right-radius: 5px;
+    }
+    .event-date {
+        width: 43px;
+        height: 60px;
+        border-radius: 2.5px;
+        margin-top: -46px;
+        margin-left: 240px;
+    }
+    .event-day {
+        width: 100%;
+        height: 50%;
+        border-top-left-radius: 2.5px;
+        border-top-right-radius: 2.5px;
+    }
+    .day {
+        font-size: 16px;
+        text-align: center;
+        padding-top: 5px;
+    }
+    .date-div {
+        width: 80%;
+        height: 0.5px;
+        border-radius: 0.5px;
+        text-align: center;
+        margin-top: -9.5px;
+    }
+    .month {
+        font-size: 12.5px;
+        text-align: center;
+        margin-top: 5px;
+     }
+    .event-title {
+        font-size: 19px;
+        padding-left: 35px;
+        margin-top: -8px;
+    }
+    .clock-loc {
+        width: 12px;
+        height: 12px;
+        margin-left: 35px;
+    }
+    .event-time-loc {
+        font-size: 9px;
+        padding-left: 53px;
+        margin-top: -14px;
+    }
+    .event-button {
+        width: 90px;
+        height: 20px;
+        margin-top: 15px;
+        border-radius: 6px;
+        font-size: 10px;
+    }
+}
+
+@media (min-width: 550px) and (max-width: 590px)
+{
+    .events-bg {
+        height: 1250px;
+    }
+    .word {
+        font-size: 20px;
+        padding-top: 24px;
+    }
+    .line {
+        width: 35px; 
+        height: 2.5px;
+        border-radius: 6px;
+        margin-top: -9px;
+    }
+    .events {	
+        display: unset;
+    }
+    .events-row {
+        display: unset;
+    }
+    .events-cell {
+        display: table;
+        text-align: left;
+        width: 65%;
+        height: 360px;
+        border-spacing: 0px;
+        margin-top: 25px;
+        border-radius: 5px;
+    }
+    .event-photo {
+        border-top-left-radius: 5px;
+        border-top-right-radius: 5px;
+    }
+    .event-date {
+        width: 48px;
+        height: 60px;
+        border-radius: 2.5px;
+        margin-top: -46px;
+        margin-left: 260px;
+    }
+    .event-day {
+        width: 100%;
+        height: 50%;
+        border-top-left-radius: 2.5px;
+        border-top-right-radius: 2.5px;
+    }
+    .day {
+        font-size: 16px;
+        text-align: center;
+        padding-top: 7px;
+    }
+    .date-div {
+        width: 80%;
+        height: 0.5px;
+        border-radius: 0.5px;
+        text-align: center;
+        margin-top: -11px;
+    }
+    .month {
+        font-size: 13px;
+        text-align: center;
+        margin-top: 6px;
+     }
+    .event-title {
+        font-size: 19px;
+        padding-left: 35px;
+        margin-top: -8px;
+    }
+    .clock-loc {
+        width: 13px;
+        height: 13px;
+        margin-left: 35px;
+    }
+    .event-time-loc {
+        font-size: 9.5px;
+        padding-left: 56px;
+        margin-top: -15px;
+    }
+    .event-button {
+        width: 110px;
+        height: 22px;
+        margin-top: 18px;
+        border-radius: 7px;
+        font-size: 11px;
+    }
+}
+
+@media (min-width: 590px) and (max-width: 620px)
+{
+    .events-bg {
+        height: 1250px;
+    }
+    .word {
+        font-size: 20px;
+        padding-top: 24px;
+    }
+    .line {
+        width: 35px; 
+        height: 2.5px;
+        border-radius: 6px;
+        margin-top: -9px;
+    }
+    .events {	
+        display: unset;
+    }
+    .events-row {
+        display: unset;
+    }
+    .events-cell {
+        display: table;
+        text-align: left;
+        width: 65%;
+        height: 360px;
+        border-spacing: 0px;
+        margin-top: 25px;
+        border-radius: 5px;
+    }
+    .event-photo {
+        border-top-left-radius: 5px;
+        border-top-right-radius: 5px;
+    }
+    .event-date {
+        width: 48px;
+        height: 60px;
+        border-radius: 2.5px;
+        margin-top: -46px;
+        margin-left: 290px;
+    }
+    .event-day {
+        width: 100%;
+        height: 50%;
+        border-top-left-radius: 2.5px;
+        border-top-right-radius: 2.5px;
+    }
+    .day {
+        font-size: 16px;
+        text-align: center;
+        padding-top: 7px;
+    }
+    .date-div {
+        width: 80%;
+        height: 0.5px;
+        border-radius: 0.5px;
+        text-align: center;
+        margin-top: -11px;
+    }
+    .month {
+        font-size: 13px;
+        text-align: center;
+        margin-top: 6px;
+     }
+    .event-title {
+        font-size: 19px;
+        padding-left: 35px;
+        margin-top: -8px;
+    }
+    .clock-loc {
+        width: 13px;
+        height: 13px;
+        margin-left: 35px;
+    }
+    .event-time-loc {
+        font-size: 9.5px;
+        padding-left: 56px;
+        margin-top: -15px;
+    }
+    .event-button {
+        width: 110px;
+        height: 22px;
+        margin-top: 18px;
+        border-radius: 7px;
+        font-size: 11px;
+    }
+}
+
+@media (min-width: 620px) and (max-width: 720px)
+{
+    .events-bg {
+        height: 1310px;
+    }
+    .word {
+        font-size: 20px;
+        padding-top: 24px;
+    }
+    .line {
+        width: 35px; 
+        height: 2.5px;
+        border-radius: 6px;
+        margin-top: -9px;
+    }
+    .events {	
+        display: unset;
+    }
+    .events-row {
+        display: unset;
+    }
+    .events-cell {
+        display: table;
+        text-align: left;
+        width: 55%;
+        height: 380px;
+        border-spacing: 0px;
+        margin-top: 25px;
+        border-radius: 5px;
+    }
+    .event-photo {
+        border-top-left-radius: 5px;
+        border-top-right-radius: 5px;
+    }
+    .event-date {
+        width: 60px;
+        height: 80px;
+        border-radius: 2.5px;
+        margin-top: -58px;
+        margin-left: 250px;
+    }
+    .event-day {
+        width: 100%;
+        height: 50%;
+        border-top-left-radius: 2.5px;
+        border-top-right-radius: 2.5px;
+    }
+    .day {
+        font-size: 18px;
+        text-align: center;
+        padding-top: 10px;
+    }
+    .date-div {
+        width: 80%;
+        height: 1px;
+        border-radius: 1px;
+        text-align: center;
+        margin-top: -11px;
+    }
+    .month {
+        font-size: 14px;
+        text-align: center;
+        margin-top: 6px;
+     }
+    .event-title {
+        font-size: 20px;
+        padding-left: 38px;
+        margin-top: -8px;
+    }
+    .clock-loc {
+        width: 14px;
+        height: 14px;
+        margin-left: 38px;
+    }
+    .event-time-loc {
+        font-size: 10px;
+        padding-left: 60px;
+        margin-top: -16px;
+    }
+    .event-button {
+        width: 120px;
+        height: 24px;
+        margin-top: 22px;
+        border-radius: 8px;
+        font-size: 12px;
+    }
+}
+
+@media (min-width: 720px) and (max-width: 820px)
+{
+    .events-bg {
+        height: 1430px;
+    }
+    .word {
+        font-size: 28px;
+        padding-top: 30px;
+    }
+    .line {
+        width: 45px; 
+        height: 3px;
+        border-radius: 7px;
+        margin-top: -12px;
+    }
+    .events {	
+        display: unset;
+    }
+    .events-row {
+        display: unset;
+    }
+    .events-cell {
+        display: table;
+        text-align: left;
+        width: 50%;
+        height: 410px;
+        border-spacing: 0px;
+        margin-top: 25px;
+        border-radius: 5px;
+    }
+    .event-photo {
+        border-top-left-radius: 5px;
+        border-top-right-radius: 5px;
+    }
+    .event-date {
+        width: 70px;
+        height: 85px;
+        border-radius: 2.5px;
+        margin-top: -63px;
+        margin-left: 270px;
+    }
+    .event-day {
+        width: 100%;
+        height: 50%;
+        border-top-left-radius: 2.5px;
+        border-top-right-radius: 2.5px;
+    }
+    .day {
+        font-size: 20px;
+        text-align: center;
+        padding-top: 10px;
+    }
+    .date-div {
+        width: 80%;
+        height: 1px;
+        border-radius: 1px;
+        text-align: center;
+        margin-top: -11.5px;
+    }
+    .month {
+        font-size: 16px;
+        text-align: center;
+        margin-top: 10px;
+     }
+    .event-title {
+        font-size: 22px;
+        padding-left: 40px;
+        margin-top: -10px;
+    }
+    .clock-loc {
+        width: 15px;
+        height: 15px;
+        margin-left: 40px;
+    }
+    .event-time-loc {
+        font-size: 11px;
+        padding-left: 65px;
+        margin-top: -17px;
+    }
+    .event-button {
+        width: 135px;
+        height: 26px;
+        margin-top: 25px;
+        border-radius: 10px;
+        font-size: 13px;
+    }
+}
+
+@media (min-width: 820px) and (max-width: 920px)
+{
+    .events-bg {
+        height: 1430px;
+    }
+    .word {
+        font-size: 28px;
+        padding-top: 30px;
+    }
+    .line {
+        width: 45px; 
+        height: 3px;
+        border-radius: 7px;
+        margin-top: -12px;
+    }
+    .events {	
+        display: unset;
+    }
+    .events-row {
+        display: unset;
+    }
+    .events-cell {
+        display: table;
+        text-align: left;
+        width: 45%;
+        height: 410px;
+        border-spacing: 0px;
+        margin-top: 25px;
+        border-radius: 5px;
+    }
+    .event-photo {
+        border-top-left-radius: 5px;
+        border-top-right-radius: 5px;
+    }
+    .event-date {
+        width: 70px;
+        height: 85px;
+        border-radius: 2.5px;
+        margin-top: -62.5px;
+        margin-left: 280px;
+    }
+    .event-day {
+        width: 100%;
+        height: 50%;
+        border-top-left-radius: 2.5px;
+        border-top-right-radius: 2.5px;
+    }
+    .day {
+        font-size: 20px;
+        text-align: center;
+        padding-top: 10px;
+    }
+    .date-div {
+        width: 80%;
+        height: 1px;
+        border-radius: 1px;
+        text-align: center;
+        margin-top: -12px;
+    }
+    .month {
+        font-size: 16px;
+        text-align: center;
+        margin-top: 10px;
+     }
+    .event-title {
+        font-size: 22px;
+        padding-left: 40px;
+        margin-top: -10px;
+    }
+    .clock-loc {
+        width: 15px;
+        height: 15px;
+        margin-left: 40px;
+    }
+    .event-time-loc {
+        font-size: 11px;
+        padding-left: 65px;
+        margin-top: -17px;
+    }
+    .event-button {
+        width: 135px;
+        height: 26px;
+        margin-top: 25px;
+        border-radius: 10px;
+        font-size: 13px;
+    }
+}
+
+@media (min-width: 920px) and (max-width: 1020px)
+{
+    .events-bg {
+        height: 1440px;
+    }
+    .word {
+        font-size: 28px;
+        padding-top: 30px;
+    }
+    .line {
+        width: 45px; 
+        height: 3px;
+        border-radius: 7px;
+        margin-top: -12px;
+    }
+    .events {	
+        display: unset;
+    }
+    .events-row {
+        display: unset;
+    }
+    .events-cell {
+        display: table;
+        text-align: left;
+        width: 45%;
+        height: 420px;
+        border-spacing: 0px;
+        margin-top: 25px;
+        border-radius: 5px;
+    }
+    .event-photo {
+        border-top-left-radius: 5px;
+        border-top-right-radius: 5px;
+    }
+    .event-date {
+        width: 70px;
+        height: 85px;
+        border-radius: 2.5px;
+        margin-top: -62.5px;
+        margin-left: 310px;
+    }
+    .event-day {
+        width: 100%;
+        height: 50%;
+        border-top-left-radius: 2.5px;
+        border-top-right-radius: 2.5px;
+    }
+    .day {
+        font-size: 20px;
+        text-align: center;
+        padding-top: 10px;
+    }
+    .date-div {
+        width: 80%;
+        height: 1px;
+        border-radius: 1px;
+        text-align: center;
+        margin-top: -12px;
+    }
+    .month {
+        font-size: 16px;
+        text-align: center;
+        margin-top: 10px;
+     }
+    .event-title {
+        font-size: 24px;
+        padding-left: 40px;
+        margin-top: -10px;
+    }
+    .clock-loc {
+        width: 16px;
+        height: 16px;
+        margin-left: 40px;
+    }
+    .event-time-loc {
+        font-size: 12px;
+        padding-left: 65px;
+        margin-top: -18px;
+    }
+    .event-button {
+        width: 138px;
+        height: 28px;
+        margin-top: 25px;
+        border-radius: 12px;
+        font-size: 13px;
+    }
+}
+
+@media (min-width: 1020px) and (max-width: 1090.5px)
+{
+    .events-bg {
+        height: 1550px;
+    }
+    .word {
+        font-size: 30px;
+        padding-top: 35px;
+    }
+    .line {
+        width: 60px; 
+        height: 4px;
+        border-radius: 7px;
+        margin-top: -12px;
+    }
+    .events {	
+        display: unset;
+    }
+    .events-row {
+        display: unset;
+    }
+    .events-cell {
+        display: table;
+        text-align: left;
+        width: 45%;
+        height: 450px;
+        border-spacing: 0px;
+        margin-top: 28px;
+        border-radius: 5px;
+    }
+    .event-photo {
+        border-top-left-radius: 5px;
+        border-top-right-radius: 5px;
+    }
+    .event-date {
+        width: 70px;
+        height: 85px;
+        border-radius: 2.5px;
+        margin-top: -62.5px;
+        margin-left: 350px;
+    }
+    .event-day {
+        width: 100%;
+        height: 50%;
+        border-top-left-radius: 2.5px;
+        border-top-right-radius: 2.5px;
+    }
+    .day {
+        font-size: 20px;
+        text-align: center;
+        padding-top: 10px;
+    }
+    .date-div {
+        width: 80%;
+        height: 1px;
+        border-radius: 1px;
+        text-align: center;
+        margin-top: -12px;
+    }
+    .month {
+        font-size: 16px;
+        text-align: center;
+        margin-top: 10px;
+     }
+    .event-title {
+        font-size: 24px;
+        padding-left: 44px;
+        margin-top: -10px;
+    }
+    .clock-loc {
+        width: 16px;
+        height: 16px;
+        margin-left: 44px;
+    }
+    .event-time-loc {
+        font-size: 12px;
+        padding-left: 69px;
+        margin-top: -18px;
+    }
+    .event-button {
+        width: 138px;
+        height: 28px;
+        margin-top: 25px;
+        border-radius: 12px;
+        font-size: 13px;
+    }
+}
+
+@media (min-width: 1090.5px) and (max-width: 1147px)
+{
+    .events-bg {
+        height: 580px;
+    }
+    .word {
+        font-size: 30px;
+        padding-top: 40px;
+    }
+    .line {
+        width: 78px; 
+        height: 5px;
+        border-radius: 5px;
+        margin-top: -16px;
+    }
+    .events {	
+        display: table;
+        width: 100%;
+        border-spacing: 40px;
+
+    }
+    .events-row {
+        display: table-row;
+    }
+    .events-cell {
+        display:table-cell;
+        height: 390px;
+    }
+    .event-date {
+        width: 60px;
+        height: 75px;
+        margin-top: -58px;
+        margin-left: 220px;
+    }
+    .event-day {
+        width: 100%;
+        height: 50%;
+    }
+    .day {
+        font-size: 20px;
+        padding-top: 10px;
+    }
+    .date-div {
+        width: 80%;
+        height: 1px;
+        margin-top: -16px;
+    }
+    .month {
+        font-size: 16px;
+        margin-top: 10px;
+    }
+    .event-title {
+        font-size: 21px;
+        padding-left: 35px;
+    }
+    .clock-loc {
+        width: 16px;
+        height: 16px;
+        margin-left: 35px;
+    }
+    .event-time-loc {
+        font-size: 11px;
+        padding-left: 65px;
+        margin-top: -17px;
+    }
+    .event-button {
+        width: 160px;
+        height: 28px;
+        margin-top: 20px;
+        font-size: 12px;
+    }
+}
+
+@media (min-width: 1147px) and (max-width: 1250px)
+{
+    .events-bg {
+        height: 600px;
+    }
+    .word {
+        font-size: 31px;
+        padding-top: 45px;
+    }
+    .line {
+        width: 78px; 
+        height: 5px;
+        border-radius: 5px;
+        margin-top: -15.5px;
+    }
+    .events {	
+        display: table;
+        width: 100%;
+        border-spacing: 40px;
+
+    }
+    .events-row {
+        display: table-row;
+    }
+    .events-cell {
+        display:table-cell;
+        height: 405px;
+    }
+    .event-date {
+        width: 60px;
+        height: 75px;
+        margin-top: -58px;
+        margin-left: 250px;
+    }
+    .event-day {
+        width: 100%;
+        height: 50%;
+    }
+    .day {
+        font-size: 20px;
+        padding-top: 10px;
+    }
+    .date-div {
+        width: 80%;
+        height: 1px;
+        margin-top: -16px;
+    }
+    .month {
+        font-size: 16px;
+        margin-top: 10px;
+    }
+    .event-title {
+        font-size: 21px;
+        padding-left: 35px;
+    }
+    .clock-loc {
+        width: 16px;
+        height: 16px;
+        margin-left: 35px;
+    }
+    .event-time-loc {
+        font-size: 11px;
+        padding-left: 65px;
+        margin-top: -17px;
+    }
+    .event-button {
+        width: 160px;
+        height: 28px;
+        margin-top: 20px;
+        font-size: 12px;
+    }
+}
+
+@media (min-width: 1250px) and (max-width: 1340px)
+{
+    .events-bg {
+        height: 600px;
+    }
+    .word {
+        font-size: 31px;
+        padding-top: 45px;
+    }
+    .line {
+        width: 78px; 
+        height: 5px;
+        border-radius: 5px;
+        margin-top: -15.5px;
+    }
+    .events {	
+        display: table;
+        width: 100%;
+        border-spacing: 40px;
+
+    }
+    .events-row {
+        display: table-row;
+    }
+    .events-cell {
+        display:table-cell;
+        height: 405px;
+    }
+    .event-date {
+        width: 60px;
+        height: 75px;
+        margin-top: -58px;
+        margin-left: 280px;
+    }
+    .event-day {
+        width: 100%;
+        height: 50%;
+    }
+    .day {
+        font-size: 20px;
+        padding-top: 10px;
+    }
+    .date-div {
+        width: 80%;
+        height: 1px;
+        margin-top: -16px;
+    }
+    .month {
+        font-size: 16px;
+        margin-top: 10px;
+    }
+    .event-title {
+        font-size: 21px;
+        padding-left: 35px;
+    }
+    .clock-loc {
+        width: 16px;
+        height: 16px;
+        margin-left: 35px;
+    }
+    .event-time-loc {
+        font-size: 11px;
+        padding-left: 65px;
+        margin-top: -17px;
+    }
+    .event-button {
+        width: 160px;
+        height: 28px;
+        margin-top: 20px;
+        font-size: 12px;
+    }
+}
+
+@media (min-width: 1380px)
+{
+    .events-bg {
+        height: 660px;
+    }
+    .word {
+        font-size: 34px;
+        padding-top: 50px;
+    }
+    .events-cell {
+        height: 450px;
+    }
+    .event-date {
+        width: 60px;
+        height: 80px;
+        margin-top: -60px;
+        margin-left: 350px;
+    }
+    .event-day {
+        width: 100%;
+        height: 50%;
+    }
+    .date-div {
+        margin-top: -14px;
+    }
+    .event-title {
+        font-size: 24px;
+        padding-left: 35px;
+    }
+    .clock-loc {
+        width: 20px;
+        height: 20px;
+        margin-left: 35px;
+    }
+    .event-time-loc {
+        font-size: 11px;
+        padding-left: 70px;
+        margin-top: -20px;
+    }
+    .event-button {
+        width: 180px;
+        height: 30px;
+        margin-top: 24px;
+        font-size: 12px;
+    }
+}

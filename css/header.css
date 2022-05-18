@@ -1,0 +1,1001 @@
+/*Header Style*/
+
+.header-bg {
+    display: table;
+    width: 100%;
+    height: 600px;
+}
+.header-bg-row {
+    display: table-row;
+}
+.header-bg-cell {
+    display: table-cell;
+    width: 27%;
+    background-color: #035B81;
+}
+.header-bg-cell-2 {
+    display: table-cell;
+    background-color: #F5F5F5;
+}
+.header {
+    width: 92%;
+    height: 520px;
+    margin-top: -560px;
+    box-shadow: 0 1.5px 1px darkgray;
+}
+.header-head {
+    width: 100%;
+    height: 55px;
+    background-color: #ffffff;
+}
+.ieee-logo {
+    width: 120px; 
+    height: 45px;
+    margin-right: 1020px;
+    margin-top: 5px;
+}
+.links {
+    font-size: 17px;
+    font-family: sans-serif; 
+    margin-top: -37px;
+    margin-left: 647px;
+}
+.this-page {
+    color: #FFD500;
+    background-color: #ffffff;
+    box-shadow: 0 0 1px #FFD500;
+    padding: 14px;
+}
+li a {
+    background-color: #ffffff;
+    box-shadow: 0 0 1px #ffffff;
+    padding: 14px;
+}
+li a:hover {
+    color: #FFD500;
+    text-decoration: none;
+    background-color: #ffffff;
+    box-shadow: 0 0 1px #FFD500;
+    padding: 14px ;
+}
+.header-view {
+    display: table;
+    width: 100%;
+    height: 465px;
+}
+.header-view-row {
+    display: table-row;
+}
+.header-title {
+    display: table-cell;
+    width: 25%;
+    background-color: #ffffff;
+}
+.title {
+    font-size: 39px;
+    text-align: left;
+    margin-left: 20px;
+    margin-top: 90px;
+    color: #035B81;
+    font-family: sans-serif;
+}
+.button {
+    width: 200px;
+    height: 40px;
+    background-color: #ffffff;
+    margin-right: 70px;
+    margin-top: 50px;
+    border-style: solid;
+    border-radius: 30px;
+    border-color: #FFD500;
+    border-width: thin;
+    font-family: sans-serif;
+    color: #FFD500;
+    outline: none;
+    font-size: 16px;
+}
+.header-img {
+    display: table-cell;
+    background-image: url(../imgs/header-bg.jpeg);
+    background-size: 100%;
+    background-position: center;
+}
+
+/*Media*/
+
+@media (min-width: 0px) and (max-width: 281px)
+{
+    .header-bg {
+        display: table;
+        height: 260px;
+    }
+    .header-bg-row {
+        display: table-row;
+    }
+    .header-bg-cell {
+        display: table-cell;
+        width: 50%;
+    }
+    .header-bg-cell-2 {
+        display: table-cell;
+    }
+    .header {
+        height: 200px;
+        margin-top: -240px;
+        box-shadow: 0 0 1px darkgray;
+    }
+    .header-head {
+        height: 40px;
+    }
+    .ieee-logo { 
+        width: 80px;
+        height: 25px;
+        margin-right: 25px;
+        margin-top: 15px;
+    }
+    .links {
+        font-size: 6px;
+        margin-top: 20px;
+        margin-left: -36px;
+    }
+    .this-page {
+        padding: 8px;
+    }
+    li a {
+        padding: 8px;
+    }
+    li a:hover {    
+        padding: 8px;
+    }
+    .header-view {
+        height: 180px;
+    }
+    .header-title {
+        width: 100%;
+        height: 180px;
+    }
+    .title {
+        font-size: 11px;
+        text-align: center;
+        margin-left: 0px;
+        margin-top: 70px;
+    }
+    .button {
+        width: 80px;
+        height: 22px;
+        margin-right: 0px;
+        margin-top: 23px;
+        border-radius: 12px;
+        font-size: 6px;
+    }
+    header-img {
+        display: none;
+    }
+    
+}
+
+@media (min-width: 281px) and (max-width: 360px)
+{
+    .header-bg {
+        display: table;
+        height: 310px;
+    }
+    .header-bg-row {
+        display: table-row;
+    }
+    .header-bg-cell {
+        display: table-cell;
+        width: 50%;
+    }
+    .header-bg-cell-2 {
+        display: table-cell;
+    }
+    .header {
+        height: 250px;
+        margin-top: -290px;
+        box-shadow: 0 0 1px darkgray;
+    }
+    .header-head {
+        height: 40px;
+    }
+    .ieee-logo { 
+        width: 95px;
+        height: 30px;
+        margin-right: 20px;
+        margin-top: 15px;
+    }
+    .links {
+        font-size: 8px;
+        margin-top: 25px;
+        margin-left: -36px;
+    }
+    .this-page {
+        padding: 8px;
+    }
+    li a {
+        padding: 8px;
+    }
+    li a:hover {    
+        padding: 8px;
+    }
+    .header-view {
+        height: 230px;
+    }
+    .header-title {
+        width: 100%;
+        height: 180px;
+    }
+    .title {
+        font-size: 15px;
+        text-align: center;
+        margin-left: 0px;
+        margin-top: 100px;
+    }
+    .button {
+        width: 100px;
+        height: 25px;
+        margin-right: 0px;
+        margin-top: 23px;
+        border-radius: 12px;
+        font-size: 8px;
+    }
+    header-img {
+        display: none;
+    }
+}
+
+@media (min-width: 360px) and (max-width: 418px)
+{
+    .header-bg {
+        display: table;
+        height: 380px;
+    }
+    .header-bg-row {
+        display: table-row;
+    }
+    .header-bg-cell {
+        display: table-cell;
+        width: 50%;
+    }
+    .header-bg-cell-2 {
+        display: table-cell;
+    }
+    .header {
+        height: 310px;
+        margin-top: -350px;
+        box-shadow: 0 0 1px darkgray;
+    }
+    .header-head {
+        height: 40px;
+    }
+    .ieee-logo { 
+        width: 100px;
+        height: 34px;
+        margin-right: 20px;
+        margin-top: 15px;
+    }
+    .links {
+        font-size: 10px;
+        margin-top: 25px;
+        margin-left: -36px;
+    }
+    .this-page {
+        padding: 10px;
+    }
+    li a {
+        padding: 10px;
+    }
+    li a:hover {    
+        padding: 10px;
+    }
+    .header-view {
+        height: 280px;
+    }
+    .header-title {
+        width: 100%;
+        height: 280px;
+    }
+    .title {
+        font-size: 18px;
+        text-align: center;
+        margin-left: 0px;
+        margin-top: 100px;
+    }
+    .button {
+        width: 120px;
+        height: 30px;
+        margin-right: 0px;
+        margin-top: 23px;
+        border-radius: 15px;
+        font-size: 10px;
+    }
+    header-img {
+        display: none;
+    }
+}
+
+@media (min-width: 418px) and (max-width: 480px)
+{
+    .header-bg {
+        display: table;
+        height: 420px;
+    }
+    .header-bg-row {
+        display: table-row;
+    }
+    .header-bg-cell {
+        display: table-cell;
+        width: 50%;
+    }
+    .header-bg-cell-2 {
+        display: table-cell;
+    }
+    .header {
+        width: 90%;
+        height: 340px;
+        margin-top: -380px;
+        box-shadow: 0 0 1px darkgray;
+    }
+    .header-head {
+        height: 42px;
+    }
+    .ieee-logo { 
+        width: 100px;
+        height: 35px;
+        margin-right: 21px;
+        margin-top: 16px;
+    }
+    .links {
+        font-size: 11.5px;
+        margin-top: 20px;
+        margin-left: -36px;
+    }
+    .this-page {
+        padding: 10px;
+    }
+    li a {
+        padding: 10px;
+    }
+    li a:hover { 
+        padding: 10px;
+    }
+    .header-view {
+        height: 300px;
+    }
+    .header-title {
+        width: 100%;
+        height: 298px;
+    }
+    .title {
+        font-size: 20px;
+        text-align: center;
+        margin-left: 0px;
+        margin-top: 110px;
+    }
+    .button {
+        width: 122px;
+        height: 32px;
+        margin-right: 0px;
+        margin-top: 28px; 
+        border-radius: 15.5px;
+        font-size: 11.5px;
+    }
+    header-img {
+        display: none;
+    }
+}
+
+@media (min-width: 480px) and (max-width: 550px)
+{
+    .header-bg {
+        display: table;
+        height: 420px;
+    }
+    .header-bg-row {
+        display: table-row;
+    }
+    .header-bg-cell {
+        display: table-cell;
+        width: 50%;
+    }
+    .header-bg-cell-2 {
+        display: table-cell;
+    }
+    .header {
+        width: 90%;
+        height: 340px;
+        margin-top: -380px;
+        box-shadow: 0 0 1px darkgray;
+    }
+    .header-head {
+        height: 42px;
+    }
+    .ieee-logo { 
+        width: 105px;
+        height: 38px;
+        margin-right: 22px;
+        margin-top: 18px;
+    }
+    .links {
+        font-size: 12px;
+        margin-top: 20px;
+        margin-left: -36px;
+    }
+    .this-page {
+        padding: 13px;
+    }
+    li a {
+        padding: 13px;
+    }
+    li a:hover { 
+        padding: 13px;
+    }
+    .header-view {
+        width: 100%;
+        height: 300px;
+    }
+    .header-title {
+        width: 100%;
+        height: 298px;
+    }
+    .title {
+        font-size: 22.5px;
+        text-align: center;
+        margin-left: 0px;
+        margin-top: 112px;
+    }
+    .button {
+        width: 122px;
+        height: 32px;
+        margin-right: 0px;
+        margin-top: 30px;
+        border-radius: 15.5px;
+        font-size: 12px;
+    }
+    header-img {
+        display: none;
+    }
+}
+
+@media (min-width: 550px) and (max-width: 590px)
+{
+    .header-bg {
+        display: table;
+        height: 430px;
+    }
+    .header-bg-row {
+        display: table-row;
+    }
+    .header-bg-cell {
+        display: table-cell;
+        width: 50%;
+    }
+    .header-bg-cell-2 {
+        display: table-cell;
+    }
+    .header {
+        width: 85%;
+        height: 320px;
+        margin-top: -390px;
+        box-shadow: 0 0 1px darkgray;
+    }
+    .header-head {
+        height: 44px;
+    }
+    .ieee-logo { 
+        width: 110px;
+        height: 40px;
+        margin-right: 23px;
+        margin-top: 19px;
+    }
+    .links {
+        font-size: 13px;
+        margin-top: 20px;
+        margin-left: -36px;
+    }
+    .this-page {
+        padding: 14px;
+    }
+    li a {
+        padding: 14px;
+    }
+    li a:hover { 
+        padding: 14px;
+    }
+    .header-view {
+        width: 100%;
+        height: 300px;
+    }
+    .header-title {
+        width: 100%;
+        height: 298px;
+    }
+    .title {
+        font-size: 24px;
+        text-align: center;
+        margin-left: 0px;
+        margin-top: 120px;
+    }
+    .button {
+        width: 124px;
+        height: 33px;
+        margin-right: 0px;
+        margin-top: 30px;
+        border-radius: 16px;
+        font-size: 13px;
+    }
+    header-img {
+        display: none;
+    }
+}
+
+@media (min-width: 590px) and (max-width: 620px)
+{
+    .header-bg {
+        display: table;
+        height: 450px;
+    }
+    .header-bg-row {
+        display: table-row;
+    }
+    .header-bg-cell {
+        display: table-cell;
+        width: 50%;
+    }
+    .header-bg-cell-2 {
+        display: table-cell;
+    }
+    .header {
+        width: 82%;
+        height: 340px;
+        margin-top: -410px;
+        box-shadow: 0 0 1px darkgray;
+    }
+    .header-head {
+        height: 45px;
+    }
+    .ieee-logo { 
+        width: 115px;
+        height: 42px;
+        margin-right: 23px;
+        margin-top: 20px;
+    }
+    .links {
+        font-size: 13.5px;
+        margin-top: 20px;
+        margin-left: -32px;
+    }
+    .this-page {
+        padding: 14px;
+    }
+    li a {
+        padding: 14px;
+    }
+    li a:hover { 
+        padding: 14px;
+    }
+    .header-view {
+        width: 100%;
+        height: 320px;
+    }
+    .header-title {
+        width: 100%;
+        height: 318px;
+    }
+    .title {
+        font-size: 25px;
+        text-align: center;
+        margin-left: 0px;
+        margin-top: 120px;
+    }
+    .button {
+        width: 125px;
+        height: 34px;
+        margin-right: 0px;
+        margin-top: 32px;
+        border-radius: 16.5px;
+        font-size: 13.5px;
+    }
+    header-img {
+        display: none;
+    }
+}
+
+@media (min-width: 620px) and (max-width: 720px)
+{
+    .header-bg {
+        display: table;
+        height: 480px;
+    }
+    .header-bg-row {
+        display: table-row;
+    }
+    .header-bg-cell {
+        display: table-cell;
+        width: 50%;
+    }
+    .header-bg-cell-2 {
+        display: table-cell;
+    }
+    .header {
+        width: 80%;
+        height: 380px;
+        margin-top: -430px;
+        box-shadow: 0 0 1px darkgray;
+    }
+    .header-head {
+        height: 42px;
+    }
+    .ieee-logo { 
+        width: 120px;
+        height: 44px;
+        margin-right: 24px;
+        margin-top: 22px;
+    }
+    .links {
+        font-size: 14.5px;
+        margin-top: 20px;
+        margin-left: -32px;
+    }
+    .this-page {
+        padding: 15px;
+    }
+    li a {
+        padding: 15px;
+    }
+    li a:hover { 
+        padding: 15px;
+    }
+    .header-view {
+        width: 100%;
+        height: 340px;
+    }
+    .header-title {
+        width: 100%;
+        height: 318px;
+    }
+    .title {
+        font-size: 27.1px;
+        text-align: center;
+        margin-left: 0px;
+        margin-top: 125px;
+    }
+    .button {
+        width: 127px;
+        height: 36px;
+        margin-right: 0px;
+        margin-top: 35px;
+        border-radius: 17px;
+        font-size: 14.5px;
+    }
+    header-img {
+        display: none;
+    }
+}
+
+@media (min-width: 720px) and (max-width: 820px)
+{
+    .header-bg {
+        display: table;
+        height: 500px;
+    }
+    .header-bg-row {
+        display: table-row;
+    }
+    .header-bg-cell {
+        display: table-cell;
+        width: 50%;
+    }
+    .header-bg-cell-2 {
+        display: table-cell;
+    }
+    .header {
+        width: 79%;
+        height: 420px;
+        margin-top: -460px;
+        box-shadow: 0 0 1px darkgray;
+    }
+    .header-head {
+        height: 46px;
+    }
+    .ieee-logo { 
+        width: 130px;
+        height: 48px;
+        margin-right: 25px;
+        margin-top: 23px;
+    }
+    .links {
+        font-size: 14.5px;
+        margin-top: 20px;
+        margin-left: -32px;
+    }
+    .this-page {
+        padding: 15px;
+    }
+    li a {
+        padding: 15px;
+    }
+    li a:hover { 
+        padding: 15px;
+    }
+    .header-view {
+        width: 100%;
+        height: 380px;
+    }
+    .header-title {
+        width: 100%;
+        height: 358px;
+    }
+    .title {
+        font-size: 30px;
+        text-align: center;
+        margin-left: 0px;
+        margin-top: 140px;
+    }
+    .button {
+        width: 128px;
+        height: 37px;
+        margin-right: 0px;
+        margin-top: 35px;
+        border-radius: 17.5px;
+        font-size: 15.5px;
+    }
+    header-img {
+        display: none;
+    }
+}
+
+@media (min-width: 820px) and (max-width: 1020px)
+{
+    .header-bg {
+        display: table;
+        height: 540px;
+    }
+    .header-bg-row {
+        display: table-row;
+    }
+    .header-bg-cell {
+        display: table-cell;
+        width: 50%;
+    }
+    .header-bg-cell-2 {
+        display: table-cell;
+    }
+    .header {
+        width: 70%;
+        height: 440px;
+        margin-top: -490px;
+        box-shadow: 0 0 1px darkgray;
+    }
+    .header-head {
+        height: 50px;
+    }
+    .ieee-logo { 
+        width: 133px;
+        height: 50px;
+        margin-right: 27px;
+        margin-top: 26px;
+    }
+    .links {
+        font-size: 16px;
+        margin-top: 20px;
+        margin-left: -30px;
+    }
+    .this-page {
+        padding: 15px;
+    }
+    li a {
+        padding: 15px;
+    }
+    li a:hover { 
+        padding: 15px;
+    }
+    .header-view {
+        width: 100%;
+        height: 390px;
+    }
+    .header-title {
+        width: 100%;
+        height: 378px;
+    }
+    .title {
+        font-size: 34px;
+        text-align: center;
+        margin-left: 0px;
+        margin-top: 140px;
+    }
+    .button {
+        width: 130px;
+        height: 39px;
+        margin-right: 0px;
+        margin-top: 38px;
+        border-radius: 18px;
+        font-size: 16px;
+    }
+    header-img {
+        display: none;
+    }
+}
+
+@media (min-width: 1020px) and (max-width: 1090.5px)
+{
+    .header-bg {
+        display: table;
+        height: 540px;
+    }
+    .header-bg-row {
+        display: table-row;
+    }
+    .header-bg-cell {
+        display: table-cell;
+        width: 50%;
+    }
+    .header-bg-cell-2 {
+        display: table-cell;
+    }
+    .header {
+        width: 74%;
+        height: 440px;
+        margin-top: -490px;
+        box-shadow: 0 0 1px darkgray;
+    }
+    .header-head {
+        height: 50px;
+    }
+    .ieee-logo { 
+        width: 133px;
+        height: 50px;
+        margin-right: 27px;
+        margin-top: 26px;
+    }
+    .links {
+        font-size: 16.5px;
+        margin-top: 20px;
+        margin-left: -30px;
+    }
+    .this-page {
+        padding: 16px;
+    }
+    li a {
+        padding: 16px;
+    }
+    li a:hover { 
+        padding: 16px;
+    }
+    .header-view {
+        width: 100%;
+        height: 390px;
+    }
+    .header-title {
+        width: 100%;
+        height: 378px;
+    }
+    .title {
+        font-size: 38px;
+        text-align: center;
+        margin-left: 0px;
+        margin-top: 145px;
+    }
+    .button {
+        width: 130px;
+        height: 39px;
+        margin-right: 0px;
+        margin-top: 38px;
+        border-radius: 18px;
+        font-size: 16.5px;
+    }
+    header-img {
+        display: none;
+    }
+}
+
+@media (min-width: 1090.5px) and (max-width: 1147px)
+{
+    .ieee-logo {
+        width: 118px; 
+        height: 44px;
+        margin-right: 850px;
+        margin-top: 5px;
+    }
+    .links {
+        font-size: 17px;
+        margin-top: -37px;
+        margin-left: 490px;
+    }
+    .this-page {
+        color: #FFD500;
+        font-size: 19px;
+    }
+    .header-view {
+        display: table;
+        width: 100%;
+        height: 465px;
+    }
+    .header-view-row {
+        display: table-row;
+    }
+    .header-title {
+        display: table-cell;
+        width: 25%;
+    }
+    .title {
+        font-size: 34px;
+        text-align: left;
+        margin-left: 20px;
+        margin-top: 90px;
+        color: #035B81;
+    }
+    .button {
+        width: 180px;
+        height: 40px;
+        margin-right: 50px;
+        margin-top: 50px;
+        border-radius: 30px;
+        font-size: 16px;
+    }
+    .header-img {
+        display: table-cell;
+        background-image: url(../imgs/header-bg.jpeg);
+        background-size: 100%;
+        background-position: center;
+    }
+}
+
+@media (min-width: 1147px) and (max-width: 1300px)
+{
+    .ieee-logo {
+        width: 118px; 
+        height: 44px;
+        margin-right: 900px;
+        margin-top: 5px;
+    }
+    .links {
+        font-size: 17px;
+        margin-top: -37px;
+        margin-left: 550px;
+    }
+    .this-page {
+        color: #FFD500;
+        font-size: 19px;
+    }
+    .header-view {
+        display: table;
+        width: 100%;
+        height: 465px;
+    }
+    .header-view-row {
+        display: table-row;
+    }
+    .header-title {
+        display: table-cell;
+        width: 25%;
+    }
+    .title {
+        font-size: 37px;
+        text-align: left;
+        margin-left: 20px;
+        margin-top: 90px;
+        color: #035B81;
+    }
+    .button {
+        width: 180px;
+        height: 40px;
+        margin-right: 50px;
+        margin-top: 50px;
+        border-radius: 30px;
+        font-size: 16px;
+    }
+    .header-img {
+        display: table-cell;
+        background-image: url(../imgs/header-bg.jpeg);
+        background-size: 100%;
+        background-position: center;
+    }
+}
+
+@media (min-width: 1380px)
+{
+    .title {
+        font-size: 44px;
+    }
+}
